@@ -1,11 +1,8 @@
 package com.udacity.popularmoviesstgone.Utils;
 
-import android.util.Log;
-
 import com.udacity.popularmoviesstgone.Model.Movies;
 
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;

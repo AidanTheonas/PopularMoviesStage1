@@ -7,7 +7,7 @@ package com.udacity.popularmoviesstgone.Model;
 import java.io.Serializable;
 
 public class Movies implements Serializable{
-    String movieTitle,releaseDate,moviePoster,voteAverage,plotSynopsis;
+    private String movieTitle,releaseDate,moviePoster,voteAverage,plotSynopsis;
     public Movies(){}
     public Movies(String movieTitle,String releaseDate,String moviePoster,String voteAverage,String plotSynopsis){
         this.movieTitle = movieTitle;
